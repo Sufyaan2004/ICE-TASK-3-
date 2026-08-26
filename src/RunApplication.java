@@ -1,7 +1,6 @@
 // RunApplication.java
 public class RunApplication {
     public static void main(String[] args) {
-        System.out.println("SALES APPLICATION");
 
         // Create SalesModel objects with sample data
         SalesModel nikeSales = new SalesModel("Nike", 1500000);
