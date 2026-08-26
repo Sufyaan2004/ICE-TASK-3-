@@ -2,7 +2,6 @@
 public class RunApplication {
     public static void main(String[] args) {
         System.out.println("SALES APPLICATION");
-        System.out.println("=".repeat(40));
 
         // Create SalesModel objects with sample data
         SalesModel nikeSales = new SalesModel("Nike", 1500000);
@@ -21,7 +20,5 @@ public class RunApplication {
 
         // Calculate and display total sales
         int totalSales = nike.GetBrandSales() + adidas.GetBrandSales() + reebok.GetBrandSales();
-        System.out.println("TOTAL SALES: R" + totalSales);
-        System.out.println("=".repeat(40));
     }
 }
